@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Noto+Sans+TC|Russo+One|Sriracha&display=swap');
+	body {
+		background-image: url(LemonBackground.jpg)
+}
+
+.background-2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	background-color: #FFB733;
+	border: #FFD50A solid 10px;
+	border-radius: 10px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.sidebar {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	left: 0%;
+	position: absolute;
+	text-align: center;
+	background: #FF9305;
+	border-right: #FFD50A solid 10px;
+}
+
+.sidebar ul li {
+	color: white;
+	list-style: none;
+	padding: 10px;
+	border-bottom: 5px solid #FFD50A;
+}
+
+.content {
+	background-color: white;
+	float: right;
+	width: 79%;
+	padding-left: 100px;
+	padding-top: -100px;
+	height: 100%;
+	margin-top: 0px;
+
+
+}
+
+.sidebartext {
+	text-decoration: none;
+	font-family: 'Russo One', sans-serif;
+}
+
+.sidebartext:hover {
+	text-decoration: underline;
+}
+
+.title {
+	position: relative;
+	margin-left: 10px;
+	transition: .5s ease-in-out;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 100;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.header-title {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.paragraph {
+	font-family: 'Sriracha', cursive;
+}
+
+.subscribe-index {
+	color: white;
+	background-color: #A80600;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 50px;
+
+}
+
+.subscribe-index:hover {
+	color: black;
+}
+
+.video-index {
+	border-radius: 20px;
+}
+
+.Logos {
+	width:50px;
+}
